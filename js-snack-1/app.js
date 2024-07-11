@@ -9,6 +9,9 @@ const numElement = document.getElementById("num")
 if (num1 > num2) {
     numElement.innerHTML = num1
 }
-else {
+else if (num1 < num2) {
     numElement.innerHTML = num2
+}
+else {
+    numElement.innerHTML = "I numeri sono uguali"
 }
